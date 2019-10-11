@@ -1,0 +1,1774 @@
+@font-face {
+    font-family: 'fontAwesome';
+    src: url('fonts/fontAwesome-webfont.eot');
+    src: url('fonts/fontAwesome-webfont.svg'),
+        url('fonts/fontAwesome-webfont.ttf') format('truetype'),
+        url('fonts/fontAwesome-webfont.woff');
+}
+
+@font-face {
+    font-family: 'glyphicons-halfings-regular';
+    src: url('fonts/glyphicons-halfings-regular.eot');
+    src: url('fonts/glyphicons-halfings-regular.ttf') format('truetype'),
+        url('fonts/glyphicons-halfings-regular.woff');
+}
+
+@font-face {
+    font-family: 'roboto-Black';
+    src: url('fonts/roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto-BlackItalic';
+    src: url('fonts/roboto-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto-Bold';
+    src: url('fonts/roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto-BoldItalic';
+    src: url('fonts/roboto-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto-Italic';
+    src: url('fonts/roboto-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto-Light';
+    src: url('fonts/roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto-LightItalic';
+    src: url('fonts/roboto-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto-Medium';
+    src: url('fonts/roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto-MediumItalic';
+    src: url('fonts/roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto-Regular';
+    src: url('fonts/roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto-Thin';
+    src: url('fonts/roboto-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto-ThinItalic';
+    src: url('fonts/roboto-ThinItalic.ttf') format('truetype');
+}
+
+
+
+
+/*fin mediaqueries ligne 638*/
+
+@media all and (max-device-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #headerMenu {
+        position: fixed;
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        height: 10%;
+        background-color: white;
+        z-index: 5;
+    }
+
+    .logoPic {
+        position: absolute;
+        width: 20%;
+        height: auto;
+        left: 7%;
+        top: 30%;
+        ;
+    }
+
+    .menu {
+        width: 45%;
+        position: absolute;
+        right: 5%;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .liMenu {
+        font-size: 0.7em;
+        padding-top: 10%;
+    }
+
+    .liMenu:hover {
+        border-top: 2px solid #1E90FF;
+        color: black;
+        opacity: 0.8;
+    }
+
+    .ancreMenu {
+        text-decoration: none;
+        font-family: 'roboto-Medium';
+        color: black;
+        opacity: 0.5;
+    }
+
+    #header {
+        max-height: 100%;
+    }
+
+
+    .slider1 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 14%;
+    }
+
+    .slider2 {
+        display: none;
+    }
+
+    .headerPicOver {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        left: 6%;
+        top: 15%;
+    }
+
+    .headerTitle {
+        font-size: 1.1em;
+        font-family: 'roboto-Black';
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+
+    .blueText {
+        color: #1E90FF;
+    }
+
+    .whiteText {
+        color: white;
+    }
+
+    .headerText {
+        font-family: 'roboto-Medium';
+        font-size: 0.8em;
+    }
+
+    .buttonHeader {
+        margin-top: 6%;
+        font-family: 'roboto-Medium';
+        font-size: 85%;
+        padding: 7px 15px 7px 15px;
+        border-radius: 4px;
+        border: 0px;
+        color: white;
+        background-color: #1E90FF;
+    }
+
+    .presentation {
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    #service {
+        width: 100%;
+        padding-top: 12%;
+        text-align: center;
+        margin-bottom: 3%;
+        font-family: 'roboto-Bold';
+        font-size: 150%;
+    }
+
+    .decoService {
+        display: flex;
+    }
+
+    .traitUn {
+        width: 40px;
+        border-bottom: 2px solid black;
+        opacity: 0.2;
+        margin-left: 40%;
+    }
+
+
+    .traitDeux {
+        width: 40px;
+        border-bottom: 2px solid black;
+        opacity: 0.2;
+        margin-left: 4%;
+    }
+
+    #cercleService {
+        position: absolute;
+        top: 58%;
+        left: 49.3%;
+        font-size: 0.7em;
+    }
+
+    .pService,
+    .pProjet {
+        position: relative;
+        width: 90%;
+        left: 5%;
+        text-align: center;
+        margin-top: 25px;
+        line-height: 20px;
+        font-family: 'roboto-Medium';
+        font-size: 0.7em;
+        opacity: 0.6;
+    }
+
+    .picService {
+        float: left;
+        width: 40%;
+        height: auto;
+        padding-left: 3%;
+        padding-top: 20%;
+    }
+
+    .fa-chart-line {
+        position: absolute;
+        left: 32%;
+        top: 21%;
+        color: #1E90FF;
+        font-size: 0.6em;
+    }
+
+    .fa-circle-notch {
+        position: absolute;
+        color: black;
+        opacity: 0.2;
+        transform: rotate(90deg);
+        font-size: 1.5em;
+
+    }
+
+    .fa-circle {
+        position: absolute;
+        color: #1E90FF;
+        left: 90%;
+        top: 33.5%;
+        font-size: 0.2em;
+    }
+
+    .fa-stack {
+        margin-right: 30px;
+
+    }
+
+    .fa-cubes {
+        position: absolute;
+        color: #1E90FF;
+        font-size: 0.6em;
+        left: 32%;
+        top: 21%;
+    }
+
+    .fa-chart-pie {
+        position: absolute;
+        color: #1E90FF;
+        font-size: 0.6em;
+        left: 32%;
+        top: 21%;
+    }
+
+    .conteneurUn,
+    .conteneurDeux,
+    .conteneurTrois {
+        margin-top: 4%;
+        margin-bottom: 6%;
+        margin-right: 5%;
+        display: flex;
+    }
+
+    .textService {
+        width: 100%;
+        opacity: 0.6;
+        font-size: 0.6em;
+        line-height: 15px;
+        font-family: 'roboto-Medium';
+    }
+
+    .divService {
+        width: 320px;
+        font-family: 'roboto-Medium';
+        line-height: 25px;
+    }
+
+    #projet {
+        background-color: #CECECE;
+    }
+
+    .headerProjet {
+        text-align: center;
+    }
+
+    .titreProjet {
+        padding-top: 12%;
+        text-align: center;
+        margin-bottom: 10px;
+        font-family: 'roboto-Bold';
+        font-size: 1.5em;
+    }
+
+    .decoProjet {
+        display: flex;
+    }
+
+    .traitUnProjet {
+        width: 40px;
+        border-bottom: 2px solid black;
+        opacity: 0.2;
+        margin-left: 40%;
+    }
+
+
+    .traitDeuxProjet {
+        width: 40px;
+        border-bottom: 2px solid black;
+        opacity: 0.2;
+        margin-left: 4%;
+    }
+
+    #cercleProjet {
+        position: absolute;
+        top: 147.7%;
+        left: 49.2%;
+        font-size: 0.7em;
+    }
+
+    #cercleProjet2 {
+        position: absolute;
+        top: 147.5%;
+        left: 48.9%;
+        font-size: 0.9em;
+        color: white;
+        background-color: white;
+        border-radius: 50%
+    }
+
+    .boutonProjet {
+        max-width: 95%;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .bouton {
+        width: 100%;
+        height: 40px;
+        background-color: #C0C0C0;
+        color: #2D241E;
+        font-family: 'roboto-Medium';
+        font-size: 0.9em;
+        border: 0;
+    }
+
+    .bouton:focus {
+        outline: 0;
+        background-color: #1E90FF;
+        border-bottom: 3px solid #4169E1;
+    }
+
+    #bouton1:focus ~ #fleche1 {
+        opacity: 1;
+    }
+
+    #bouton2:focus ~ #fleche2 {
+        opacity: 1;
+    }
+
+    #bouton3:focus ~ #fleche3 {
+        opacity: 1;
+    }
+
+    #bouton4:focus ~ #fleche4 {
+        opacity: 1;
+    }
+
+
+    #bouton1 {
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 5%;
+    }
+
+    #bouton4 {
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 5%;
+    }
+
+    .flecheBouton {
+        display: flex;
+        width: 400px;
+        margin-left: 518px;
+    }
+
+    #fleche1,
+    #fleche2,
+    #fleche3,
+    #fleche4 {
+        font-size: 20px;
+        margin-right: 43px;
+        margin-left: 43px;
+        margin-bottom: 30px;
+        color: #4169E1;
+        opacity: 0;
+        margin-top: -9px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        display: block;
+    }
+
+
+
+
+    .photo1,
+    .photo2,
+    .photo3,
+    .photo4,
+    .photo5,
+    .photo6,
+    .photo7,
+    .photo8,
+    .photo9 {
+        width: 54%;
+    }
+
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6,
+    .image7,
+    .image8,
+    .image9 {
+        max-width: 100%;
+        height: auto;
+        margin-right: 4%;
+        z-index: 1;
+    }
+
+
+    .conteneurPhoto {
+        width: 82%;
+        height: auto;
+        display: inline-flex;
+        justify-content: space-between;
+        margin-left: 9%;
+        margin-top: 2%;
+    }
+
+    .image9 {
+        width: 37.2%;
+        height: auto;
+        margin-left: 44px;
+        margin-top: 2%;
+        margin-bottom: 10%;
+    }
+
+    .image1:hover,
+    .image2:hover,
+    .image3:hover,
+    .image4:hover,
+    .image5:hover,
+    .image6:hover,
+    .image7:hover,
+    .image8:hover,
+    .image9:hover {
+        transform: scale(1.8);
+
+    }
+
+    .descPhoto1,
+    .descPhoto2,
+    .descPhoto3,
+    .descPhoto4,
+    .descPhoto5,
+    .descPhoto6,
+    .descPhoto7,
+    .descPhoto8,
+    .descPhoto9 {
+        display: none;
+    }
+
+    #contact {
+        padding-top: 12%;
+        width: 100%;
+        height: 380px;
+    }
+
+    .map {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+    .mapColor {
+        position: absolute;
+        width: 100%;
+        height: 67%;
+        background-color: skyblue;
+        opacity: 0.2;
+        border-top: 2px solid black;
+    }
+
+
+    .formContact {
+        position: relative;
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .titreContact {
+        padding: 10px 0px 8px 18px;
+        font-family: 'roboto-bold';
+        font-size: 1.5em;
+    }
+
+    p.textContact {
+        margin: 0px 0px 15px 18px;
+        font-family: 'roboto-Medium';
+        font-size: 0.8em;
+        opacity: 0.7;
+        line-height: 19px;
+    }
+
+    input {
+        margin-top: 13px;
+        margin-left: 5%;
+        height: 25px;
+        width: 40%;
+        font-size: 0.9em;
+        border-radius: 2px;
+    }
+
+    .input {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    input.submit {
+        width: 87.3%;
+        margin-left: 5%;
+        height: 30px;
+        border-bottom: 2px solid #6495ED;
+        border-style: outset;
+        background-color: #1E90FF;
+        color: white;
+        font-family: 'roboto-Medium';
+    }
+
+    textarea {
+        margin-top: 13px;
+        margin-left: 5%;
+        height: 40px;
+        width: 86.8%;
+        border: 0;
+        border-radius: 2px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    input::placeholder {
+        padding-top: 5px;
+        text-indent: 10px;
+        font-family: 'roboto-Medium';
+        opacity: 0.7;
+    }
+
+    textarea::placeholder {
+        padding-top: 4px;
+        text-indent: 10px;
+        font-family: 'roboto-Medium';
+        font-size: 1.1em;
+        opacity: 0.6;
+    }
+
+    .boldTextForm {
+        font-family: 'roboto-Bold';
+        font-size: 1em;
+    }
+
+
+}
+
+@media all and (min-width: 481px) and (max-width: 760px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #headerMenu {
+        position: fixed;
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        height: 15%;
+        background-color: white;
+        z-index: 5;
+    }
+
+    .logoPic {
+        position: absolute;
+        width: 30%;
+        height: auto;
+        left: 7%;
+        top: 30%;
+        ;
+    }
+
+    .menu {
+        width: 40%;
+        position: absolute;
+        right: 1%;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .liMenu {
+        font-size: 0.9em;
+        margin-right: 6%;
+        padding-top: 14%;
+    }
+
+    .liMenu:hover {
+        border-top: 2px solid #1E90FF;
+        color: black;
+        opacity: 0.8;
+    }
+
+    .ancreMenu {
+        text-decoration: none;
+        font-family: 'roboto-Medium';
+        color: black;
+        opacity: 0.5;
+    }
+
+    #header {
+        max-height: 100%;
+    }
+
+
+    .slider1 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 14%;
+    }
+
+    .slider2 {
+        display: none;
+    }
+
+    .headerPicOver {
+        position: absolute;
+        width: 45%;
+        height: 100%;
+        left: 6%;
+        top: 28%;
+    }
+
+    .headerTitle {
+        font-size: 130%;
+        font-family: 'roboto-Black';
+        line-height: 25px;
+        margin-bottom: 8px;
+    }
+
+    .blueText {
+        color: #1E90FF;
+    }
+
+    .whiteText {
+        color: white;
+    }
+
+    .headerText {
+        font-family: 'roboto-Medium';
+        font-size: 100%;
+    }
+
+    .buttonHeader {
+        margin-top: 6%;
+        font-family: 'roboto-Medium';
+        font-size: 90%;
+        padding: 7px 15px 7px 15px;
+        border-radius: 4px;
+        border: 0px;
+        color: white;
+        background-color: #1E90FF;
+    }
+
+    .presentation {
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    #service {
+        width: 100%;
+        padding-top: 12%;
+        text-align: center;
+        margin-bottom: 3%;
+        font-family: 'roboto-Bold';
+        font-size: 150%;
+    }
+
+    .decoService {
+        display: flex;
+    }
+
+    .traitUn {
+        width: 6%;
+        border-bottom: 2px solid black;
+        opacity: 0.2;
+        margin-left: 42%;
+    }
+
+
+    .traitDeux {
+        width: 6%;
+        border-bottom: 2px solid black;
+        opacity: 0.2;
+        margin-left: 4%;
+    }
+
+    #cercleService {
+        position: absolute;
+        top: 89.5%;
+        left: 49.3%;
+        font-size: 0.7em;
+    }
+
+    .pService,
+    .pProjet {
+        position: relative;
+        width: 90%;
+        left: 5%;
+        text-align: center;
+        margin-top: 25px;
+        line-height: 20px;
+        font-family: 'roboto-Medium';
+        font-size: 90%;
+        opacity: 0.6;
+    }
+
+    .picService {
+        float: left;
+        width: 40%;
+        height: auto;
+        padding-left: 3%;
+        padding-top: 15%;
+    }
+
+    .fa-chart-line {
+        position: absolute;
+        left: 32%;
+        top: 21%;
+        color: #1E90FF;
+        font-size: 80%;
+    }
+
+    .fa-circle-notch {
+        position: absolute;
+        left: 11%;
+        color: black;
+        opacity: 0.2;
+        transform: rotate(90deg);
+        font-size: 170%;
+
+    }
+
+    .fa-circle {
+        position: absolute;
+        color: #1E90FF;
+        left: 70%;
+        top: 36%;
+        font-size: 25%;
+    }
+
+    .fa-cubes {
+        position: absolute;
+        color: #1E90FF;
+        font-size: 80%;
+        left: 32%;
+        top: 21%;
+    }
+
+    .fa-chart-pie {
+        position: absolute;
+        color: #1E90FF;
+        font-size: 80%;
+        left: 32%;
+        top: 21%;
+    }
+
+    .conteneurUn,
+    .conteneurDeux,
+    .conteneurTrois {
+        margin-top: 4%;
+        margin-bottom: 6%;
+        margin-right: 5%;
+        display: flex;
+    }
+
+    .textService {
+        width: 100%;
+        opacity: 0.6;
+        font-size: 80%;
+        line-height: 150%;
+        font-family: 'roboto-Medium';
+    }
+
+    .divService {
+        width: 80%;
+        font-family: 'roboto-Medium';
+        line-height: 170%;
+    }
+
+    #projet {
+        background-color: #CECECE;
+    }
+
+    .headerProjet {
+        text-align: center;
+    }
+
+    .titreProjet {
+        padding-top: 12%;
+        text-align: center;
+        margin-bottom: 10px;
+        font-family: 'roboto-Bold';
+        font-size: 170%;
+    }
+
+    .decoProjet {
+        display: flex;
+    }
+
+    .traitUnProjet {
+        width: 6%;
+        border-bottom: 2px solid black;
+        opacity: 0.2;
+        margin-left: 42%;
+    }
+
+
+    .traitDeuxProjet {
+        width: 6%;
+        border-bottom: 2px solid black;
+        opacity: 0.2;
+        margin-left: 4%;
+    }
+
+    #cercleProjet {
+        position: absolute;
+        top: 197%;
+        left: 49.2%;
+        font-size: 70%;
+    }
+
+    #cercleProjet2 {
+        position: absolute;
+        top: 196.8%;
+        left: 49%;
+        font-size: 90%;
+        color: white;
+        background-color: white;
+        border-radius: 50%
+    }
+
+    .boutonProjet {
+        max-width: 95%;
+        display: flex;
+        justify-content: center;
+        margin-top: 6%;
+    }
+
+    .bouton {
+        width: 100%;
+        height: 75%;
+        background-color: #C0C0C0;
+        color: #2D241E;
+        font-family: 'roboto-Medium';
+        font-size: 0.9em;
+        border: 0;
+    }
+
+    .bouton:focus {
+        outline: 0;
+        background-color: #1E90FF;
+        border-bottom: 3px solid #4169E1;
+    }
+
+    #bouton1:focus ~ #fleche1 {
+        opacity: 1;
+    }
+
+    #bouton2:focus ~ #fleche2 {
+        opacity: 1;
+    }
+
+    #bouton3:focus ~ #fleche3 {
+        opacity: 1;
+    }
+
+    #bouton4:focus ~ #fleche4 {
+        opacity: 1;
+    }
+
+
+    #bouton1 {
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 5%;
+    }
+
+    #bouton4 {
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 5%;
+    }
+
+    #fleche1,
+    #fleche2,
+    #fleche3,
+    #fleche4 {
+        font-size: 120%;
+        padding-right: 43px;
+        padding-left: 43px;
+        margin-bottom: 30px;
+        color: #4169E1;
+        opacity: 0;
+        margin-top: -9px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        display: block;
+    }
+
+    .photo1,
+    .photo2,
+    .photo3,
+    .photo4,
+    .photo5,
+    .photo6,
+    .photo7,
+    .photo8,
+    .photo9 {
+        width: 54%;
+    }
+
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6,
+    .image7,
+    .image8,
+    .image9 {
+        max-width: 100%;
+        height: auto;
+        margin-right: 4%;
+        z-index: 1;
+    }
+
+
+    .conteneurPhoto {
+        width: 82%;
+        height: auto;
+        display: inline-flex;
+        justify-content: space-between;
+        margin-left: 9%;
+        margin-top: 5%;
+    }
+
+    .image9 {
+        width: 46%;
+        height: auto;
+        padding-bottom: 10%;
+    }
+
+    .image1:hover,
+    .image2:hover,
+    .image3:hover,
+    .image4:hover,
+    .image5:hover,
+    .image6:hover,
+    .image7:hover,
+    .image8:hover,
+    .image9:hover {
+        transform: scale(1.85);
+
+    }
+
+    .descPhoto1,
+    .descPhoto2,
+    .descPhoto3,
+    .descPhoto4,
+    .descPhoto5,
+    .descPhoto6,
+    .descPhoto7,
+    .descPhoto8,
+    .descPhoto9 {
+        display: none;
+    }
+
+    #contact {
+        padding-top: 10%;
+        width: 100%;
+        height: 380px;
+    }
+
+
+
+    .formContact {
+        position: relative;
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .titreContact {
+        margin: 4% 0% 2% 8%;
+        font-family: 'roboto-bold';
+        font-size: 170%;
+    }
+
+    p.textContact {
+        margin: 0% 0% 5% 8%;
+        font-family: 'roboto-Medium';
+        font-size: 100%;
+        opacity: 0.7;
+        line-height: 19px;
+    }
+
+    input {
+        margin-bottom: 3%;
+        margin-left: 8%;
+        height: 25px;
+        width: 40%;
+        font-size: 110%;
+        border-radius: 2px;
+    }
+
+    .input {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    input.submit {
+        width: 89.4%;
+        margin-left: 8%;
+        height: 40px;
+        border-bottom: 2px solid #6495ED;
+        border-style: outset;
+        background-color: #1E90FF;
+        color: white;
+        font-family: 'roboto-Medium';
+        font-size: 130%;
+    }
+
+    textarea {
+        margin-left: 8%;
+        height: 40px;
+        width: 89%;
+        font-size: 110%;
+        border: 0;
+        border-radius: 2px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    input::placeholder {
+        padding-top: 5px;
+        text-indent: 10px;
+        font-family: 'roboto-Medium';
+        opacity: 0.6;
+    }
+
+    textarea::placeholder {
+        padding-top: 4px;
+        text-indent: 10px;
+        font-family: 'roboto-Medium';
+        font-size: 1.1em;
+        opacity: 0.6;
+    }
+
+    .boldTextForm {
+        font-family: 'roboto-Bold';
+        font-size: 120%;
+    }
+
+    .map {
+        width: 100%;
+        height: 125%;
+        border: 0;
+    }
+
+    .mapColor {
+        position: absolute;
+        width: 100%;
+        height: 83%;
+        background-color: skyblue;
+        opacity: 0.2;
+        border-top: 2px solid black;
+    }
+}
+
+@media all and (min-width: 761px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #headerMenu {
+        position: fixed;
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        height: 15%;
+        background-color: white;
+        z-index: 5;
+    }
+
+    .logoPic {
+        position: absolute;
+        width: 15%;
+        height: auto;
+        left: 11%;
+        top: 30%;
+    }
+
+    .menu {
+        position: relative;
+        left: 70%;
+        list-style-type: none;
+        display: flex;
+    }
+
+    .liMenu {
+        padding: 45px 2px 0px 2px;
+        margin-right: 3%;
+    }
+
+    .liMenu:hover {
+        border-top: 3px solid #1E90FF;
+        padding-top: 42px;
+        color: black;
+        opacity: 0.8;
+    }
+
+    .ancreMenu {
+        text-decoration: none;
+        font-family: 'roboto-Medium';
+        font-size: 0.9em;
+        color: black;
+        opacity: 0.5;
+        height: 200px;
+    }
+
+    #header {
+        max-height: 100%;
+        width: 100%;
+    }
+
+
+    .slider1 {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        margin-top: 100px;
+        transition-property: transform;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+
+    .slider2 {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        margin-top: 100px;
+    }
+
+    .slider1:hover {
+        transform: translateX(-100%);
+    }
+
+    .slider2:hover ~ .slider1{
+        transform: scaleY(0) scaleX(0);
+
+    }
+
+    .headerPicOver {
+        position: absolute;
+        width: 40%;
+        height: 100%;
+        margin-left: 11%;
+        margin-top: 20%;
+    }
+
+    .headerTitle {
+        font-size: 2.4em;
+        font-family: 'roboto-Black';
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .blueText {
+        color: #1E90FF;
+    }
+
+    .whiteText {
+        color: white;
+    }
+
+    .headerText {
+        font-family: 'roboto-Medium';
+        font-size: 0.9em;
+    }
+
+    .buttonHeader {
+        font-family: 'roboto-Medium';
+        font-size: 1.2em;
+        padding: 13px 21px 13px 21px;
+        margin-top: 25px;
+        border-radius: 4px;
+        border: 0px;
+        color: white;
+        background-color: #1E90FF;
+    }
+
+    .presentation {
+        padding-top: 50%;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    #service {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+        font-family: 'roboto-Bold';
+        font-size: 3em;
+    }
+
+    .decoService {
+        display: flex;
+    }
+
+    .traitUn {
+        width: 80px;
+        border-bottom: 2px solid black;
+        opacity: 0.2;
+        margin-left: 43%;
+    }
+
+
+    .traitDeux {
+        width: 80px;
+        border-bottom: 2px solid black;
+        opacity: 0.2;
+        margin-left: 30px;
+    }
+
+    #cercleService {
+        margin-top: -5px;
+        margin-left: 49.5%;
+        font-size: 0.9em;
+    }
+
+    .pService,
+    .pProjet {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        margin-top: 25px;
+        line-height: 25px;
+        font-family: 'roboto-Medium';
+        font-size: 0.9em;
+        opacity: 0.6;
+    }
+
+    .picService {
+        width: 35%;
+        float: left;
+        padding-left: 10%;
+        padding-top: 30px;
+    }
+
+    .fa-chart-line {
+        position: absolute;
+        color: #1E90FF;
+        font-size: 1.2em;
+        margin-left: 22px;
+        margin-top: 22px;
+    }
+
+    .fa-circle-notch {
+        position: absolute;
+        color: black;
+        opacity: 0.2;
+        transform: rotate(90deg);
+        font-size: 2.5em;
+
+    }
+
+    .fa-circle {
+        position: absolute;
+        color: #1E90FF;
+        margin-top: 35px;
+        margin-left: 68px;
+        font-size: 0.4em;
+    }
+
+    .fa-stack {
+        margin-right: 30px;
+
+    }
+
+    .fa-cubes {
+        position: absolute;
+        color: #1E90FF;
+        font-size: 1.2em;
+        margin-left: 22px;
+        margin-top: 22px;
+    }
+
+    .fa-chart-pie {
+        position: absolute;
+        color: #1E90FF;
+        font-size: 1.2em;
+        margin-left: 22px;
+        margin-top: 22px;
+    }
+
+    .conteneurUn,
+    .conteneurDeux,
+    .conteneurTrois {
+        margin-top: 60px;
+        display: flex;
+        margin-left: 60%;
+    }
+
+    .textService {
+        width: 100%;
+        opacity: 0.6;
+        font-size: 0.9em;
+        font-family: 'roboto-Medium';
+    }
+
+    .divService {
+        width: 60%;
+        font-family: 'roboto-Medium';
+        line-height: 25px;
+    }
+
+    #projet {
+        background-color: #CECECE;
+        margin-top: 10%;
+        padding-top: 5%;
+    }
+
+    .headerProjet {
+        text-align: center;
+    }
+
+    .titreProjet {
+        padding-top: 3%;
+        margin-bottom: 2%;
+        font-family: 'roboto-Bold';
+        font-size: 3em;
+    }
+
+    .decoProjet {
+        display: flex;
+    }
+
+    .traitUnProjet {
+        width: 80px;
+        border-bottom: 2px solid black;
+        opacity: 0.2;
+        margin-left: 43%;
+    }
+
+    .traitDeuxProjet {
+        width: 80px;
+        border-bottom: 2px solid black;
+        opacity: 0.2;
+        margin-left: 30px;
+    }
+
+    #cercleProjet {
+        margin-top: -0.5%;
+        margin-left: 49.5%;
+        font-size: 0.9em;
+    }
+
+    #cercleProjet2 {
+        margin-top: -0.9%;
+        margin-left: 49.1%;
+        font-size: 1.6em;
+        color: white;
+        background-color: white;
+        border-radius: 50%
+    }
+
+    .pProjet {
+        width: 50%;
+        margin-left: 25%;
+
+    }
+
+    .boutonProjet {
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+    }
+
+    .bouton {
+        width: 100%;
+        height: 40px;
+        background-color: #C0C0C0;
+        color: #2D241E;
+        font-family: 'roboto-Medium';
+        font-size: 0.9em;
+        border: 0;
+    }
+
+    .bouton:focus {
+        outline: 0;
+        background-color: #1E90FF;
+        border-bottom: 3px solid #4169E1;
+    }
+
+    #bouton1:focus ~ #fleche1 {
+        opacity: 1;
+    }
+
+    #bouton2:focus ~ #fleche2 {
+        opacity: 1;
+    }
+
+    #bouton3:focus ~ #fleche3 {
+        opacity: 1;
+    }
+
+    #bouton4:focus ~ #fleche4 {
+        opacity: 1;
+    }
+
+
+    #bouton1 {
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 5%;
+    }
+
+    #bouton4 {
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 5%;
+    }
+
+    .flecheBouton {
+        display: flex;
+        width: 400px;
+        margin-left: 518px;
+    }
+
+    #fleche1,
+    #fleche2,
+    #fleche3,
+    #fleche4 {
+        font-size: 20px;
+        margin-right: 43px;
+        margin-left: 43px;
+        margin-bottom: 30px;
+        color: #4169E1;
+        opacity: 0;
+        margin-top: -9px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        display: block;
+    }
+
+
+
+
+    .photo1,
+    .photo2,
+    .photo3,
+    .photo4,
+    .photo5,
+    .photo6,
+    .photo7,
+    .photo8,
+    .photo9 {
+        width: 260px;
+    }
+
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6,
+    .image7,
+    .image8,
+    .image9 {
+        max-width: 100%;
+        height: auto;
+        margin-right: 15px;
+        z-index: 1;
+    }
+
+    .conteneurPhoto {
+        width: 85%;
+        height: auto;
+        display: inline-flex;
+        justify-content: space-between;
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+
+    .image9 {
+        margin-bottom: 30px;
+    }
+
+    .descPhoto1,
+    .descPhoto2,
+    .descPhoto3,
+    .descPhoto4,
+    .descPhoto5,
+    .descPhoto6,
+    .descPhoto7,
+    .descPhoto8,
+    .descPhoto9 {
+        position: relative;
+        margin-top: -64px;
+        width: 100%;
+        height: auto;
+        max-height: 60px;
+        background-color: rgba(0, 0, 0, 0.4);
+        color: white;
+        opacity: 0;
+        display: none;
+        -webkit-transition: opacity, display, 0.2s, ease;
+        -moz-transition: opacity, 1s, ease;
+        -o-transition: opacity, 1s, ease;
+    }
+
+    .descPhoto9 {
+        left: 60px;
+        top: -20px;
+    }
+
+    .pPhoto {
+        padding-left: 8px;
+        font-size: 0.9em;
+        font-family: 'roboto-Medium';
+    }
+
+    .titrePhoto {
+        padding: 12px 0px 8px 8px;
+        line-height: 8px;
+        font-size: 0.9em;
+        font-family: 'roboto-Medium';
+    }
+
+    #cerclePhoto1 {
+        position: relative;
+        top: -95px;
+        right: -140px;
+        font-size: 2em;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+
+    .fa-eye {
+        position: relative;
+        font-size: 1.5em;
+        color: white;
+        height: 10px;
+    }
+
+    .image1:hover ~ .descPhoto1,
+    .descPhoto1:hover {
+        opacity: 1;
+        display: inherit;
+    }
+
+    .image2:hover ~ .descPhoto2,
+    .descPhoto2:hover {
+        opacity: 1;
+        display: inherit;
+    }
+
+    .image3:hover ~ .descPhoto3,
+    .descPhoto3:hover {
+        opacity: 1;
+        display: inherit;
+    }
+
+    .image4:hover ~ .descPhoto4,
+    .descPhoto4:hover {
+        opacity: 1;
+        display: inherit;
+    }
+
+    .image5:hover ~ .descPhoto5,
+    .descPhoto5:hover {
+        opacity: 1;
+        display: inherit;
+    }
+
+    .image6:hover ~ .descPhoto6,
+    .descPhoto6:hover {
+        opacity: 1;
+        display: inherit;
+    }
+
+    .image7:hover ~ .descPhoto7,
+    .descPhoto7:hover {
+        opacity: 1;
+        display: inherit;
+    }
+
+    .image8:hover ~ .descPhoto8,
+    .descPhoto8:hover {
+        opacity: 1;
+        display: inherit;
+    }
+
+    .image9:hover ~ .descPhoto9,
+    .descPhoto9:hover {
+        opacity: 1;
+        display: inherit;
+    }
+
+
+    .lien {
+        position: relative;
+        top: -98px;
+        right: -104px;
+    }
+
+    #contact {
+        margin-top: 100px;
+        width: 100%;
+        height: 550px;
+    }
+
+    .map {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+    .mapColor {
+        position: absolute;
+        width: 100%;
+        height: 550px;
+        background-color: skyblue;
+        opacity: 0.2;
+        border-top: 2px solid black;
+        border-bottom: 3px solid black;
+    }
+
+    .formContact {
+        position: absolute;
+        top: 400%;
+        left: 995px;
+        width: 300px;
+        height: 460px;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .titreContact {
+        padding: 20px 0px 8px 18px;
+        font-family: 'roboto-bold';
+        font-size: 1.5em;
+    }
+
+    p.textContact {
+        margin: 0px 0px 15px 18px;
+        font-family: 'roboto-Medium';
+        font-size: 0.8em;
+        opacity: 0.7;
+        line-height: 19px;
+    }
+
+    input {
+        margin-top: 13px;
+        margin-left: 18px;
+        height: 25px;
+        width: 80%;
+        font-size: 0.9em;
+        border-radius: 2px;
+    }
+
+    .input {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    input.submit {
+        width: 40%;
+        height: 30px;
+        border-bottom: 2px solid #6495ED;
+        border-style: outset;
+        background-color: #1E90FF;
+        color: white;
+        font-family: 'roboto-Medium';
+    }
+
+    textarea {
+        margin-top: 13px;
+        margin-left: 18px;
+        height: 140px;
+        width: 80%;
+        border: 0;
+        border-radius: 2px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    input::placeholder {
+        padding-top: 5px;
+        text-indent: 10px;
+        font-family: 'roboto-Medium';
+        opacity: 0.7;
+    }
+
+    textarea::placeholder {
+        padding-top: 4px;
+        text-indent: 10px;
+        font-family: 'roboto-Medium';
+        font-size: 1.1em;
+        opacity: 0.6;
+    }
+
+    .boldTextForm {
+        font-family: 'roboto-Bold';
+        font-size: 1em;
+    }
+}
